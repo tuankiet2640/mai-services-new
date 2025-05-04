@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    url: jdbc:postgresql://localhost:5432/mai-servicedb
+    username: postgres
+    password: 12345678
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
